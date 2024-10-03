@@ -95,4 +95,4 @@ tokens_pad = pad_sequences(tokens, maxlen=max_tokens)
 predictions = model.predict(tokens_pad)
 
 for i in range(0,len(predictions)):
-    print("(Spam tahmini {}) {}".format(predictions[i][0],texts[i]))
+    print("(Spam Predict {}) {}".format(predictions[i][0],texts[i]))
